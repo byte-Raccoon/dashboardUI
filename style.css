@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #0a0a0a;
+}
+/* overview.html */
+
+.title{
+  display: flex;
+  font-weight: 400;
+  margin: 40px 5% 8px;
+
+}
+/* logo */
+.fa-brands{
+  color: #1b61fc;
+  margin-top: 5px;
+}
+.heading{
+  color: #0a0a0a;
+  font-size: large;
+  border-bottom: 3px solid #e50914;
+}
+.sub-head{
+  color: #878896;
+  margin-left: 7.5%;
+  font-size: small;
+  margin-bottom: 30px;
+}
+
+.navbar{
+  height: 30px;
+  width: 90%;
+  display: flex;
+  background-color: #ececf0;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  border: 1px none #e50914;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overview:active, .expense:active, .habit:active, .goal:active, .study:active{
+  background-color: white;
+  /* border: 1px none #e50914; */
+  border-radius: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: background-color 1s;
+}
+
+.hero{
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 90%;
+  margin-top: 30px;
+  margin-right: auto;
+}
+.total-exp{
+  border: 1px solid #878896;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 12px;
+  background-image: url("assets/dollar-sign-solid-full.svg");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 85% 30%;
+}
+
+.activeHabits{
+  border: 1px solid #878896;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 12px;
+  background-image: url("assets/calendar-check-regular-full.svg");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 85% 30%;
+}
+.money{
+  color: #1b61fc;
+}
+
+.activeGoal{
+  border: 1px solid #878896;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 12px;
+  background-image: url("assets/bullseye-solid-full.svg");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 85% 30%;
+}
+
+.studyTime{
+  border: 1px solid #878896;
+  border-radius: 10px;
+  padding-top: 20px;
+  margin-right: 12px;
+  background-image: url("assets/book-open-reader-solid-full.svg");
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: 85% 30%;
+}
+
+.time{
+  color: #01a63e;
+}
+.goal{
+  color: #f54900;
+}
+.habit{
+  color: #9810fa;
+}
+.study-class{
+  width: 90%;
+  height: 60vh;
+  display: flex-box;
+  background-color: #ececf0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.study-title{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.study-head{
+  font-size: larger;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.study-class-time{
+  color: green;
+}
