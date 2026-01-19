@@ -54,7 +54,7 @@ a{
   padding-right: 35px;
   padding-top: 5px;
   padding-bottom: 5px;
-  transition: background-color 1s;
+  transition: background-color 0.1s;
 }
 
 .hero{
@@ -121,6 +121,8 @@ a{
 .habit{
   color: #9810fa;
 }
+
+/* study */
 .study-class{
   width: 90%;
   height: 62vh;
@@ -136,7 +138,6 @@ a{
   margin-top: 20px;
   margin-left: 20px;
 }
-
 .study-class-info{
   display: inline-block;
 }
@@ -145,11 +146,9 @@ a{
   margin-bottom: 10px;
   color: black;
 }
-
 .study-class-time{
   color: green;
 }
-
 .study-class-button{
   margin-left: 80%;
   margin-bottom: 3%;
@@ -159,19 +158,19 @@ a{
   border-radius: 8px;
   border: 1px none;
 }
-
+.study-class-button:hover{
+  cursor:pointer;
+}
 .study-class-body{
   display: grid;
   grid-template-columns: auto auto;
   /* height: 360px; */
 }
-
 .study-class-recent-session-title{
   font-weight: 400;
   margin-left: 2%;
   /* border: 1px solid black; */
 }
-
 .study-class-activity{
   font-weight: 300;
   display: grid;
@@ -181,7 +180,6 @@ a{
   padding: 1%;
   border-radius: 10px;
 }
-
 .study-class-activity-logo{
   display: flex;
   grid-row: 1 / 3;
@@ -189,19 +187,16 @@ a{
   align-items: center;
   justify-content: center;
 }
-
 .study-class-activity-name{
   margin-left: 5%;
   padding: 3px;
 }
-
 .study-class-activity-date{
   padding: 3px;
   margin-left: 5%;
   grid-row: 2/3;
   grid-column: 2/3;
 }
-
 .study-class-activity-time{
   color: #01a63e;
   display: flex;
@@ -222,8 +217,6 @@ a{
   margin-right: 2%;
   margin-left: 25px;
 }
-
-
 .study-class-graph{
   height: 300px;
   margin: 20px 5px 20px 40px;
@@ -240,4 +233,70 @@ a{
   background-color: #1b61fc;
   row-gap: 10px;
   column-gap: 10px;
+}
+
+/* goals */
+.goals-class{
+  width: 90%;
+  height: 50vh;
+  background-color:#ececf0;
+  margin: auto;
+  border-radius: 7px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.goals-class-info{
+  display: flex;
+}
+
+.goals-head{
+  /* border: 2px solid black; */
+  display: flex;
+  margin-top: 40px;
+  margin-right: 80%;
+  margin-left: 30px;
+  font-size: larger;
+}
+.goals-class-button{
+  border: 2px solid black;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 5px;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.goals-class-button:hover{
+  cursor:pointer;
+}
+.goals-class-body{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.goals-class-tile{
+  width: 97%;
+  height: 15vh;
+  border: 1px solid #878896;
+  border-radius: 10px;
+  display: inline-flex;
+}
+
+.goals-class-tile-img{
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.goals-class-tile-content{
+  margin-top: 24px;
+  margin-left: 12px;
+  font-size: large;
+}
+.goals-class-tile-button{
+  margin-left: 87%;
+  margin-top: 30px;
+}
+.goals-class-tile-button:hover{
+  cursor: pointer;
+  padding: 5px;
 }
