@@ -19,19 +19,19 @@
     </div>
     <div class="navbar">
       <div class="overview">
-      <a href="overview.html"><i class="fa-solid fa-eye"></i> Overview</a>
+      <a href="#overview"><i class="fa-solid fa-eye"></i> Overview</a>
       </div>
       <div class="expense">
-      <a href="expense.html"><i class="fa-solid fa-dollar-sign"></i> Expenses</a>
+      <a href="#expense"><i class="fa-solid fa-dollar-sign"></i> Expenses</a>
       </div>
       <div class="habit">
-      <a href="habit.html"><i class="fa-regular fa-calendar-check"></i> Habits</a>
+      <a href="#habits"><i class="fa-regular fa-calendar-check"></i> Habits</a>
       </div>
       <div class="goal">
-      <a href="goal.html"><i class="fa-solid fa-bullseye"></i> Goals</a>
+      <a href="#goals"><i class="fa-solid fa-bullseye"></i> Goals</a>
       </div>
       <div class="study">
-      <a href="study.html"><i class="fa-solid fa-book-open-reader"></i> Study</a>
+      <a href="#study"><i class="fa-solid fa-book-open-reader"></i> Study</a>
       </div>
     </div>  
   </div>
@@ -62,13 +62,13 @@
     </div>
   </div>
   <!-- study -->
-  <div class="study-class">
+  <div class="study-class" id="study">
     <div class="study-title">
       <div class="study-class-info">
         <div class="study-head">Study Tracker</div>
         <div class="study-class-time"><i class="fa-regular fa-clock"></i> 8h 0m Total</div>
       </div>
-        <button class="study-class-button"><i class="fa-solid fa-plus"></i> Add Session</button>
+        <button class="study-class-button"><i class="fa-solid fa-plus"></i>Add Session</button>
     </div>
     <div class="study-class-body">
       <div class="study-class-recent-session-title">Recent Session
@@ -121,7 +121,25 @@
           </div>
         </div>
       </div>
+  </div>
+  <!-- goals -->
+  <div class="goals-class" id="goals">
+    <div class="goals-title">
+      <div class="goals-class-info">
+        <div class="goals-head">Goal Tracker</div>
+        <div class="goals-class-button"><i class="fa-solid fa-plus"></i> Add Goal</div>
+      </div>
+      <div class="goals-class-body">
+        <div class="goals-class-tile">
+          <div class="goals-class-tile-img"><img src="assets/bullseye-solid-full.svg" alt="image"></div>
+          <div class="goals-class-tile-content"><p>Read Books</p></div>
+          <div class="goals-class-tile-button"><i class="fa-regular goal-bin fa-trash-can" style="color: #ff2600;"></i></div>
+        </div>
     </div>
+  </div>
+
+    
+  </div>
   </div>
 </body>
 </html>
